@@ -1,0 +1,13 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+  }
+  
+  .bg {
+    background-color: gray;
+    padding: 20px 80px;
+  }
+  
+  .fg {
+    background-color: white;
+    padding: 20px;  
+  }
