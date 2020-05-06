@@ -2,18 +2,17 @@
     font-family: Roboto, Arial, sans-serif;
   }
   
-  .bg {
+  .container {
     display: flex;
     flex-direction: column;
-    background-color: gray;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .fg {
+    align-content: center;
     background-color: white;
-    align-self: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1150px;
+    margin-top: 20px;
+  }
+
+  body {
+    background-color:gray;
   }
