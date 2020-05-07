@@ -2,12 +2,12 @@
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    width: 1120px;
+    width: 95%;
     margin: auto;
 }
 
 .col {
-    width: 300px;
+    width: 25%;
     text-align: center;
     padding: 15px;
 }
