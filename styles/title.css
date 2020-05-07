@@ -11,16 +11,6 @@
     margin-bottom: -10px;
 }
 
-@media only screen and (max-width: 800px) {
-    .title {
-        font-size: 60px;
-    }
-
-    .subtitle {
-        font-size: 14px;
-    }
-}
-
 .subtitle {
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
