@@ -22,7 +22,7 @@ nav {
     padding-top: 40px;
     padding-bottom: 15px;
     margin: 0 auto;
-    width: 1050px;
+    width: 95%;
     position: relative;
 }
 
@@ -118,6 +118,7 @@ nav {
 }
 
 .title-pics {
+    width: 95%;
     padding: 3px;
     border: solid;
     border-width: 1px;
@@ -125,7 +126,8 @@ nav {
 }
 
 .title-pics img {
-    width: 275px;
-    height: 300px;
+    width: 25%;
     vertical-align: top;
+    float: left;
+    box-sizing: border-box;
 }
