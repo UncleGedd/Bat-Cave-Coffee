@@ -1,4 +1,4 @@
-const adjustNav = function() {
+const adjustNavbar = function() {
     MAX_WIDTH = 1040
     width = window.innerWidth;
     height = window.innerHeight;
@@ -7,6 +7,7 @@ const adjustNav = function() {
         document.getElementsByTagName('nav')[0].remove()
         document.getElementsByClassName('title-pics')[0].insertAdjacentElement('afterend', smallNavbar)
     } else if (width > MAX_WIDTH && document.getElementsByTagName('nav').length == 0) {
+        document.getElementsByClassName('small-nav')[0].remove()
         document.getElementsByClassName('subtitle')[0].insertAdjacentElement('afterend', navbar)
     }
 }
@@ -38,7 +39,7 @@ smallNavbar.innerHTML = `
     </ul>
 `
 
-
 const navbar = document.getElementsByTagName('nav')[0]
-window.onload = adjustNav
-window.onresize = adjustNav
+
+window.onload = adjustNavbar
+window.onresize = adjustNavbar
