@@ -1,31 +1,5 @@
-@import 'nav.css';
+@import 'mediumscreen.css';
 
-.subtitle {
-    margin-bottom: 15px;
-} 
-
-.small-nav {
-    width: 25%;
-    position: relative;
-    margin-top: 10px;
-}
-
-.small-nav ul {
-    margin-block-end: 0;
-}
-
-.nav-links .link-contents:hover {
-    background-color: #e6e6e6;
-    color: black;
-    border-radius: 5px;
-}
-
-.row {
-    padding-top: 0px;
-    flex-direction: column;
-}
-
-.col {
-    width: 75%;
-    margin: auto;
+.title {
+    font-size: 60px;
 }
