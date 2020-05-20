@@ -3,3 +3,14 @@
 .title {
     font-size: 60px;
 }
+
+/* for really small screens (like iphone SE) */
+@media only screen and (max-width: 450px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+}
