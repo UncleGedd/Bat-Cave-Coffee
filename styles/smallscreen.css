@@ -6,6 +6,16 @@
 
 /* for really small screens (like iphone SE) */
 @media only screen and (max-width: 450px) {
+
+    body {
+        margin: auto;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 0px;
+    }
+
     .title {
         font-size: 35px;
     }
